@@ -3,7 +3,8 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev",
-    "start": "next start"
+    "start": "next start",
+    "eslint": "eslint --ext .js,.jsx,.ts,.tsx --fix ."
   },
   "dependencies": {
     "@heroicons/react": "^2.0.18",
@@ -25,9 +26,12 @@
     "@types/bcrypt": "^5.0.1",
     "@types/react": "18.2.21",
     "@types/react-dom": "18.2.14",
+    "@typescript-eslint/eslint-plugin": "^6.11.0",
+    "@typescript-eslint/parser": "^6.11.0",
     "dotenv": "^16.3.1",
-    "eslint": "^8.52.0",
+    "eslint": "^8.53.0",
     "eslint-config-next": "^14.0.0",
+    "eslint-plugin-react": "^7.33.2",
     "prettier": "^3.0.3"
   },
   "engines": {
